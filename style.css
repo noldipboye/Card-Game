@@ -2,7 +2,13 @@
     background-image: url(images/table.jpeg);
 }
 
-
+#paragraph1 {
+    background-color: green;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    margin-right: 1250px;
+}
 
 
 

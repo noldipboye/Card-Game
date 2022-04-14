@@ -1,6 +1,7 @@
 function button1() {
 
-    getCard()
+
+   console.log(limiter())
     
 }
 
@@ -13,5 +14,21 @@ function getCard() {
     document.getElementById("card").style.justifyContent = "center"
     return r
 }
+
+math = 0
+
+
+function limiter() {
+
+    if (math <= 21) {
+    m = getCard()
+
+    math = (m + math)
+    }
+
+    return math
+}
+
+
 
 

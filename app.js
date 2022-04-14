@@ -1,6 +1,10 @@
 function button1() {
 
+
+    limiter(getCard())
     getCard()
+
+   console.log(limiter())
     
 }
 
@@ -10,11 +14,25 @@ function getCard() {
     var randomSuit = Math.floor(Math.random() * 4)
     document.getElementById("card").insertAdjacentHTML("beforeend", "<img src=Cards/" + r + suitArray[randomSuit] + ".jpg>")
     document.getElementById("card").style.display = "flex"
-    
     document.getElementById("card").style.justifyContent = "center"
     
     
     return r
 }
+
+math = 0
+
+
+function limiter() {
+
+    m = getCard()
+
+
+    math = (m + math)
+
+    return math
+}
+
+
 
 

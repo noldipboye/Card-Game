@@ -13,6 +13,7 @@
 #card > img {
     height: 240px;
     width: 175px;
+    padding: 10px;
 }
 
 

@@ -30,6 +30,7 @@ function computerCards() {
     document.getElementById("card2").insertAdjacentHTML("beforeend", "<img src=Cards/" + v + suitArray[randomSuit] + ".jpg>")
     document.getElementById("card2").style.display = "flex"
     document.getElementById("card2").style.justifyContent = "center"
+
     return v
 }
 
@@ -47,6 +48,9 @@ function limiter() {
     return math
     
 }
+
+math2 = 0
+
 
 function limiter2() {
 

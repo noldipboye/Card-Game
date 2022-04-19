@@ -1,7 +1,8 @@
 function button1() {
 
 
-   console.log(limiter())
+   console.log(text())
+   
     
 }
 
@@ -27,6 +28,13 @@ function limiter() {
     }
 
     return math
+    
+}
+
+function text() {
+    let a = limiter()
+
+    document.getElementById("yourNumber").innerHTML = "Your total is " + a + "."
 }
 
 // Limiter

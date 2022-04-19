@@ -33,8 +33,12 @@ function limiter() {
 
 function text() {
     let a = limiter()
-
     document.getElementById("yourNumber").innerHTML = "Your total is " + a + "."
+    document.getElementById("yourNumber").style.display = "flex"
+    document.getElementById("yourNumber").style.justifyContent = "center"
+
+
+
 }
 
 // Limiter

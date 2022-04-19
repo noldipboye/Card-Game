@@ -17,6 +17,12 @@
     padding: 10px;
 }
 
+#card2 > img {
+    height: 240px;
+    width: 175px;
+    padding: 10px;
+}
+
 #paragraph2 {
     background-color: #cc524e;
     font-size: 30px;

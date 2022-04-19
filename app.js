@@ -36,6 +36,7 @@ function computerCards() {
 math = 0
 
 
+
 function limiter() {
 
     if (math <= 21) {
@@ -48,15 +49,17 @@ function limiter() {
     
 }
 
+math2 = 0
+
 function limiter2() {
 
-    if (math <= 21) {
-    m = computerCards()
+    if (math2 <= 21) {
+    n = computerCards()
 
-    math = (m + math)
+    math2 = (n + math2)
     }
 
-    return math
+    return math2
     
 }
 

@@ -29,6 +29,7 @@ function computerCards() {
     document.getElementById("card").insertAdjacentHTML("beforeend", "<img src=Cards/" + r + suitArray[randomSuit] + ".jpg>")
     document.getElementById("card").style.display = "flex"
     document.getElementById("card").style.justifyContent = "center"
+    
     return v
 }
 

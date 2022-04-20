@@ -11,6 +11,8 @@ function button2() {
     text2()
 
 
+
+
 }
 
 function getCard() {
@@ -37,6 +39,7 @@ function computerCards() {
 math = 0
 
 
+
 function limiter() {
 
     if (math <= 21) {
@@ -51,16 +54,15 @@ function limiter() {
 
 math2 = 0
 
-
 function limiter2() {
 
-    if (math <= 21) {
-    m = computerCards()
+    if (math2 <= 21) {
+    n = computerCards()
 
-    math = (m + math)
+    math2 = (n + math2)
     }
 
-    return math
+    return math2
     
 }
 
@@ -73,10 +75,14 @@ function text() {
 }
 
 function text2() {
+    
+    
+      
     let b = limiter2()
     document.getElementById("yourNumber2").innerHTML = "The Computer's total is " + b + "."
     document.getElementById("yourNumber2").style.display = "flex"
     document.getElementById("yourNumber2").style.justifyContent = "center"
+   
 
 }
 

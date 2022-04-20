@@ -123,6 +123,10 @@ function compare() {
         document.getElementById("compare").innerHTML = "Computer wins"
     }  
     
+    document.getElementById("compare").style.display = "flex"
+    document.getElementById("compare").style.justifyContent = "center"
+    document.getElementById("compare").style.backgroundImage = URL(images/confetti.jpeg)
+
 
 }
 

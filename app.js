@@ -53,7 +53,7 @@ math2 = 0
 
 function limiter2() {
 
-    if (math2 <= 21) {
+    if (math2 <= 16) {
     n = computerCards()
 
     math2 = (n + math2)

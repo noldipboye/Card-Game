@@ -2,16 +2,12 @@ function button1() {
 
 
    text()
-   
-    
 }
 
 function button2() {
 
     text2()
-
-
-
+    compare()
 
 }
 
@@ -56,13 +52,14 @@ math2 = 0
 
 function limiter2() {
 
-    if (math2 <= 16) {
-    n = computerCards()
+    do {
+        n = computerCards()
 
-    math2 = (n + math2)
-    }
+        math2 = (n + math2)
+        
+    }while(math2 <= 16)
 
-    return math2
+return math2
     
 }
 
@@ -83,6 +80,46 @@ function text2() {
     document.getElementById("yourNumber2").style.display = "flex"
     document.getElementById("yourNumber2").style.justifyContent = "center"
    
+
+}
+
+function compare() {
+    
+    if (math > 20 && math2 > 20) {
+        document.getElementById("compare").innerHTML = "Both lose."
+    }
+      
+    if (math > math2 && math2 < 20 && math > 20) {
+        document.getElementById("compare").innerHTML = "Computer wins!"
+    }
+      
+    if (math2 > math && math < 20 && math2 > 20) {
+        document.getElementById("compare").innerHTML = "You win!"
+    }
+      
+    if (math > math2 && math2 < 20 && math < 20) {
+        document.getElementById("compare").innerHTML = "Computer win"
+    }
+      
+    if (math2 > math && math < 20 && math2 < 20) {
+        document.getElementById("compare").innerHTML = "You win"
+    }
+    if (math == 20 && math2 != 20) {
+        document.getElementById("compare").innerHTML = "You win!"
+    }
+    
+    if (math2 == 20 && math != 20) {
+        document.getElementById("compare").innerHTML = "Computer wins"
+    }
+    
+    if (math > math2 && math <= 20) {
+        document.getElementById("compare").innerHTML = "You win"
+    }
+    
+    if (math2 > math && math2 <= 20) {
+        document.getElementById("compare").innerHTML = "Computer wins"
+    }  
+    
 
 }
 

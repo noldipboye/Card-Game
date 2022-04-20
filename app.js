@@ -1,16 +1,17 @@
 function button1() {
 
-
    text()
-   
-    
+
 }
 
 function button2() {
 
     text2()
+}
 
+function button3() {
 
+    window.location.reload();
 }
 
 function getCard() {
@@ -57,7 +58,7 @@ function limiter2() {
         n = computerCards()
 
         math2 = (n + math2)
-        
+
     }while(math2 <= 16)
 
 return math2
@@ -79,6 +80,10 @@ function text2() {
     document.getElementById("yourNumber2").style.justifyContent = "center"
 
 }
+
+
+
+
 
 
 // Limiter

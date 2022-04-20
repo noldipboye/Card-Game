@@ -88,38 +88,38 @@ function text2() {
 
 function compare() {
     
-    if (math > 20 && math2 > 20) {
+    if (math > 21 && math2 > 21) {
         document.getElementById("compare").innerHTML = "Both lose."
     }
       
-    if (math > math2 && math2 < 20 && math > 20) {
+    if (math > math2 && math2 < 21 && math > 21) {
         document.getElementById("compare").innerHTML = "Computer wins!"
     }
       
-    if (math2 > math && math < 20 && math2 > 20) {
+    if (math2 > math && math < 21 && math2 > 21) {
         document.getElementById("compare").innerHTML = "You win!"
     }
       
-    if (math > math2 && math2 < 20 && math < 20) {
+    if (math > math2 && math2 < 21 && math < 21) {
         document.getElementById("compare").innerHTML = "Computer win"
     }
       
-    if (math2 > math && math < 20 && math2 < 20) {
+    if (math2 > math && math < 21 && math2 < 21) {
         document.getElementById("compare").innerHTML = "You win"
     }
-    if (math == 20 && math2 != 20) {
+    if (math == 21 && math2 != 21) {
         document.getElementById("compare").innerHTML = "You win!"
     }
     
-    if (math2 == 20 && math != 20) {
+    if (math2 == 21 && math != 21) {
         document.getElementById("compare").innerHTML = "Computer wins"
     }
     
-    if (math > math2 && math <= 20) {
+    if (math > math2 && math <= 21) {
         document.getElementById("compare").innerHTML = "You win"
     }
     
-    if (math2 > math && math2 <= 20) {
+    if (math2 > math && math2 <= 21) {
         document.getElementById("compare").innerHTML = "Computer wins"
     }  
     

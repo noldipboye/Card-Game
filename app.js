@@ -53,13 +53,14 @@ math2 = 0
 
 function limiter2() {
 
-    if (math2 <= 16) {
-    n = computerCards()
+    do {
+        n = computerCards()
 
-    math2 = (n + math2)
-    }
+        math2 = (n + math2)
+        
+    }while(math2 <= 16)
 
-    return math2
+return math2
     
 }
 

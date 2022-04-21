@@ -6,9 +6,10 @@
     background-color: rgb(25, 185, 172);
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    padding: 5px;
+    padding: 2px;
     margin-right: 1250px;
     text-align: center;
+    border-radius: 10px;
 }
 
 
@@ -28,18 +29,20 @@
     background-color: #bd1664;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    padding: 5px;
+    padding: 2px;
     margin-right: 1235px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #paragraph3 {
     background-color: #5707d8;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    padding: 15px;
+    padding: 2px;
     margin-right: 1250px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #compare (

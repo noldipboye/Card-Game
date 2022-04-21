@@ -122,10 +122,14 @@ function compare() {
     if (math2 > math && math2 <= 21) {
         document.getElementById("compare").innerHTML = "Computer wins"
     }  
+
+    if (math == math2) {
+        document.getElementById("compare").innerHTML = "Tie!"
+    }
+
     
     document.getElementById("compare").style.display = "flex"
     document.getElementById("compare").style.justifyContent = "center"
-    document.getElementById("compare").style.backgroundImage = URL(images/confetti.jpeg)
 
 
 }

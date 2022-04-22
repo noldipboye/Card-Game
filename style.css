@@ -3,13 +3,17 @@
 }
 
 #paragraph1 {
-    background-color: rgb(25, 185, 172);
+    color: white;
+    background-color: #29635C;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     padding: 2px;
     margin-right: 1250px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 
@@ -26,28 +30,33 @@
 }
 
 #paragraph2 {
-    background-color: #bd1664;
+    color: white;
+    background-color: #29635C;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    padding: 2px;
+    padding: 2.5px;
     margin-right: 1235px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 #paragraph3 {
-    background-color: #5707d8;
+    color: white;
+    background-color: #29635C;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     padding: 2px;
     margin-right: 1250px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
-#compare (
-    
-)
 
 
 

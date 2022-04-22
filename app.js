@@ -76,14 +76,11 @@ function text() {
 
 function text2() {
     
-    
-      
     let b = limiter2()
     document.getElementById("yourNumber2").innerHTML = "The Computer's total is " + b + "."
     document.getElementById("yourNumber2").style.display = "flex"
     document.getElementById("yourNumber2").style.justifyContent = "center"
    
-
 }
 
 function compare() {
